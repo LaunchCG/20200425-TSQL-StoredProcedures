@@ -9,6 +9,7 @@ With the use of parameters, you can make your stored procedures much more useful
 <p>
 There is also a security advantage to using stored procedures. After the stored procedure has been created, all access to the underlying tables can be revoked to the users.
 </p>
+<p>
 <h3>Reading Data with Stored Procedures</h3>
 The following example creates a stored procedure to return all authors in the table.
 
@@ -17,7 +18,8 @@ After you create this stored procedure, you will execute it by running the follo
 
 
 This will return the authors which Surname is equal to 'Deitel'. One of the problems is that if you do not pass it one of the parameters that is expecting, you will get an error. One way to get around this is to set up the parameters to use a default value.
-
+</p>
+<p>
 <h3>Adding Data with Stored Procedures</h3>
 The OUTPUT Parameter
 
@@ -28,7 +30,8 @@ The following example shows how to create a simple store procedure that utilizes
 
 To execute this store, run the following script:
 
-
+</p>
+<p>
 <h3>Modifying Data with Stored Procedure</h3>
 Stored procedures can also be used to modify data. Any valid insert, update or delete can be made into a stored procedure and can be run by executing a single line of code instead of running many lines of code.
 
@@ -36,4 +39,4 @@ The following example will delete a book and erase all its relations in the tabl
 
 
 To test this store run the following script
-
+</p>
