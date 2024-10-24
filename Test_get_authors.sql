@@ -1,2 +1,0 @@
-use BookStore
-exec dbo.usp_get_authors_storebook
