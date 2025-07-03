@@ -1,0 +1,22 @@
+{
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 15,
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": false,
+                "trustServerCertificate": false
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "Bookstore",
+            "database": "Bookstore",
+            "username": "sa",
+            "password": "morgan1!"
+        }
+    ]
+}
